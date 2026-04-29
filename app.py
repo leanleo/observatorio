@@ -10,7 +10,7 @@ st.set_page_config(page_title="Observatório Piauí", page_icon="bandeira.png", 
 st.markdown("""
 <style>
     .main { background-color: #0f1117; }
-    .block-container { padding-top: 1rem; }
+    .block-container { padding-top: 3.5rem; }
     .rodape {
         position: fixed; bottom: 0; left: 0; width: 100%;
         background: #1a1d27; color: #8899aa; font-size: 0.78rem;
