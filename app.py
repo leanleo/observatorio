@@ -20,7 +20,7 @@ st.markdown("""
 </style>
 <div class='rodape'>
     Projeto para a Superintendência &nbsp;|&nbsp; Candidato: <strong>Leonardo</strong>
-    &nbsp;|&nbsp; Dados: IBGE/SICONFI/DATASUS — 2022-2025
+    &nbsp;|&nbsp; Dados: IBGE
 </div>
 """, unsafe_allow_html=True)
 
@@ -44,7 +44,7 @@ df = load_data()
 geojson = load_geojson()
 
 pop = df["populacao_estimada_2025"].sum()
-idhm_medio = df["idhm"].mean()
+idhm_medio = 0.710
 
 def img_b64(path):
     try:
@@ -75,7 +75,7 @@ st.markdown(
     f'<div style="font-size:1.55rem;font-weight:700;color:#00b4d8;">{pop_str}</div>'
     f'</div>'
     f'<div style="border-left:2px solid #2a2d3e;padding-left:20px;min-width:110px;">'
-    f'<div style="font-size:0.65rem;color:#8899aa;text-transform:uppercase;letter-spacing:.06em;">IDHM médio</div>'
+    f'<div style="font-size:0.65rem;color:#8899aa;text-transform:uppercase;letter-spacing:.06em;">IDHMgit </div>'
     f'<div style="font-size:1.55rem;font-weight:700;color:#00b4d8;">{idhm_str}</div>'
     f'</div>'
     f'</div>',
