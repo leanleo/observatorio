@@ -75,7 +75,7 @@ st.markdown(
     f'<div style="font-size:1.55rem;font-weight:700;color:#00b4d8;">{pop_str}</div>'
     f'</div>'
     f'<div style="border-left:2px solid #2a2d3e;padding-left:20px;min-width:110px;">'
-    f'<div style="font-size:0.65rem;color:#8899aa;text-transform:uppercase;letter-spacing:.06em;">IDHMgit </div>'
+    f'<div style="font-size:0.65rem;color:#8899aa;text-transform:uppercase;letter-spacing:.06em;">IDHM</div>'
     f'<div style="font-size:1.55rem;font-weight:700;color:#00b4d8;">{idhm_str}</div>'
     f'</div>'
     f'</div>',
